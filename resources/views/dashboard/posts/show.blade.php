@@ -21,7 +21,7 @@
                 @if ($post->image)
                     <img class="img-fluid img-thumbnail" src="/storage/{{ $post->image }}" alt="">
                 @else
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/random/400×600/?{{ $post->category->name }}" alt="">
+                    <img class="img-fluid img-thumbnail" src="https://via.placeholder.com/600x300" alt="">
                 @endif
             </div>
             <article class="my-3">

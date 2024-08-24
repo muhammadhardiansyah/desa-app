@@ -20,7 +20,7 @@
                                     <img src="storage/{{ $staf->user->image }}" class="owl-carousel-image img-fluid pb-5"
                                         style="min-height: 450px; object-fit: cover;" alt="">
                                 @else
-                                    <img src="https://source.unsplash.com/random/400×600/?people"
+                                    <img src="https://via.placeholder.com/600x300"
                                         class="owl-carousel-image img-fluid  pb-5"
                                         style="min-height: 500px; object-fit: cover;" alt="">
                                 @endif
@@ -106,7 +106,7 @@
                                                 style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                 alt="">
                                         @else
-                                            <img src="https://source.unsplash.com/random/400×600/?{{ $post->category->name }}"
+                                            <img src="https://via.placeholder.com/600x300"
                                                 class="custom-block-image img-fluid"
                                                 style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                 alt="">
@@ -127,7 +127,7 @@
                                                 class="profile-block-image img-fluid"
                                                 style="min-height:; max-height:; object-fit: cover;" alt="">
                                         @else
-                                            <img src="https://source.unsplash.com/random/600×400/?people"
+                                            <img src="https://via.placeholder.com/600x300"
                                                 class="profile-block-image img-fluid"
                                                 style="min-height:; max-height:; object-fit: cover;" alt="">
                                         @endif
@@ -211,7 +211,7 @@
                                             style="min-height: 210px; max-height:220px; object-fit: cover;"
                                             alt="">
                                     @else
-                                        <img src="https://source.unsplash.com/random/400×600/?product"
+                                        <img src="https://via.placeholder.com/600x300"
                                             class="custom-block-image img-fluid"
                                             style="min-height: 210px; max-height:220px; object-fit: cover;"
                                             alt="">

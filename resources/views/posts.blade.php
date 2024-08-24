@@ -38,7 +38,7 @@
                                                     style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                     alt="">
                                             @else
-                                                <img src="https://source.unsplash.com/random/400×600/?{{ $posts[0]->category->name }}"
+                                                <img src="https://via.placeholder.com/600x300"
                                                     style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                     class="img-fluid rounded" alt="">
                                             @endif
@@ -59,7 +59,7 @@
                                                     class="profile-block-image img-fluid rounded"
                                                     style="min-height:; max-height:; object-fit: cover;" alt="">
                                             @else
-                                                <img src="https://source.unsplash.com/random/600×400/?people"
+                                                <img src="https://via.placeholder.com/600x300"
                                                     class="profile-block-image img-fluid rounded"
                                                     style="min-height:; max-height:; object-fit: cover;" alt="">
                                             @endif
@@ -100,7 +100,7 @@
                                                         style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                         alt="">
                                                 @else
-                                                    <img src="https://source.unsplash.com/random/400×600/?{{ $post->category->name }}"
+                                                    <img src="https://via.placeholder.com/600x300"
                                                         style="min-height: 210px; max-height:220px; object-fit: cover;"
                                                         class="img-fluid rounded" alt="">
                                                 @endif
@@ -121,7 +121,7 @@
                                                         class="profile-block-image img-fluid rounded"
                                                         style="min-height:; max-height:; object-fit: cover;" alt="">
                                                 @else
-                                                    <img src="https://source.unsplash.com/random/600×400/?people"
+                                                    <img src="https://via.placeholder.com/600x300"
                                                         class="profile-block-image img-fluid rounded"
                                                         style="min-height:; max-height:; object-fit: cover;" alt="">
                                                 @endif

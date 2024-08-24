@@ -28,7 +28,7 @@
                             @if ($staf->user->image)
                                 <img src="/storage/{{ $staf->user->image }}" class="about-image img-fluid mb-5 pb-5" style="min-height: 500px; max-height: 510px; object-fit: cover;" alt="" >
                             @else
-                                <img src="https://source.unsplash.com/random/400×600/?people" class="about-image img-fluid mb-5 pb-5" style="min-height: 500px; max-height: 510px; object-fit: cover;"  alt="">
+                                <img src="https://via.placeholder.com/600x300" class="about-image img-fluid mb-5 pb-5" style="min-height: 500px; max-height: 510px; object-fit: cover;"  alt="">
                             @endif
                             <div class="team-info">
                                 <h4 class="mb-2">

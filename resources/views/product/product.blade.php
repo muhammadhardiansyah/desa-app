@@ -25,7 +25,7 @@
                 @if ($product->image)
                     <img class="img-fluid img-thumbnail" src="/storage/{{ $product->image }}" style="min-height: 400px; max-height:410px; object-fit: cover;" alt="">
                 @else
-                    <img src="https://source.unsplash.com/random/400×600/?product" style="min-height: 400px; max-height:410px; object-fit: cover;" class="img-fluid img-thumbnail" alt="">
+                    <img src="https://via.placeholder.com/600x300" style="min-height: 400px; max-height:410px; object-fit: cover;" class="img-fluid img-thumbnail" alt="">
                 @endif
             </div>
             <article class="my-3">

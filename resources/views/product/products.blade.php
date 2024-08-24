@@ -37,7 +37,7 @@
                                                 <img class="img-fluid" src="/storage/{{ $products[0]->image }}"
                                                 style="min-height: 210px; max-height:220px; object-fit: cover;" alt="">
                                             @else
-                                                <img src="https://source.unsplash.com/random/400×600/?products"
+                                                <img src="https://via.placeholder.com/600x300"
                                                 style="min-height: 210px; max-height:220px; object-fit: cover;" class="img-fluid" alt="">
                                             @endif
                                         </a>
@@ -86,7 +86,7 @@
                                                     <img class="img-fluid" src="/storage/{{ $product->image }}"
                                                     style="min-height: 210px; max-height:220px; object-fit: cover;" alt="">
                                                 @else
-                                                    <img src="https://source.unsplash.com/random/400×600/?product"
+                                                    <img src="https://via.placeholder.com/600x300"
                                                     style="min-height: 210px; max-height:220px; object-fit: cover;" class="img-fluid" alt="">
                                                 @endif
                                             </a>
