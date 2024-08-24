@@ -31,7 +31,7 @@
                                             @if ($category->image)
                                                 <img src="/storage/{{ $category->image }}" class="img-fluid" style="min-height: 210px; max-height:220px; object-fit: cover;" alt="">
                                             @else
-                                                <img src="https://source.unsplash.com/random/400×600/?{{ $category->name }}"
+                                                <img src="https://via.placeholder.com/600x300"
                                                 style="min-height: 210px; max-height:220px; object-fit: cover;" class="img-fluid" alt="">
                                             @endif
                                         </a>
